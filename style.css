@@ -1,0 +1,88 @@
+         body{
+           background-color:rgb(128, 1, 246); 
+        }
+        .header{          
+            background-color: #47BF01;
+            display:flex;
+            justify-content:space-between;
+            
+
+        }
+
+        h1{
+            color:rgb(255, 242, 242);
+            background-image:url( "bg.png");
+            font-family: "Algerian";
+           margin-left: 30px;
+        }
+
+        .grid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+        }
+        h2,h4,p{
+            color: white;
+            text-align: center;
+            text-shadow: tomato;
+            text-decoration: violet;
+            font-size: 30px;
+            font-weight: 800;
+        
+        }
+        
+        .menu{
+            
+            margin-right: 30px;
+            margin-top: 30px;
+
+        }
+        
+        .menu a{ 
+            margin-left: 30px;
+
+        }
+
+        a:link{
+            color: yellow;
+        }
+
+        a:visited{
+            color: rgb(15, 68, 241);
+        }
+
+        .item{
+            margin-left: 50px;
+            border:solid;
+            border-radius: 50px;
+            background-color:blueviolet;
+            padding: 20px;
+            width: 350px;
+            font-family: 'Bold';
+
+            
+           
+        }
+
+        .item p{
+           text-align: left;
+           
+        }
+
+        .item img{
+            border:solid;
+            border-width:thick ;
+            border-radius: 30px;
+            border-color: black;
+            background-color: rgb(255, 30, 0);
+        }
+
+        .item:hover p{
+            opacity: 1;
+            
+        }
+        
+
+        
+         
